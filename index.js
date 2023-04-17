@@ -13,5 +13,5 @@ const StudentList = (req, res) => {
     res.send(sum);
 };
 app.get("/students", StudentList);
-app.listen(5000);
+app.listen(3000);
 
